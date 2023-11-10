@@ -1,6 +1,6 @@
 name: vulnerability scan workflow
 
-on: push
+on: [push, workflow_dispatch]
 
 jobs:
     meterian_scan:
