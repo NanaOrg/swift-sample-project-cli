@@ -18,9 +18,9 @@ jobs:
                 
           - name: setup-cocoapods
             run: |
-                 apt update
-                 apt install ruby-full
-                 gem install cocoapods -v 1.12.1
+                 sudo apt update
+                 sudo apt install ruby-full
+                 sudo gem install cocoapods -v 1.12.1
         
           - name: Download the meterian CLI
             run: wget -N https://www.meterian.io/downloads/meterian-cli.jar
